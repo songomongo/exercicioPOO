@@ -1,12 +1,12 @@
 "use strict";
-class evento {
+class Evento {
     constructor(nome, data, horario) {
         this.nome = nome;
         this.data = data;
         this.horario = horario;
     }
 }
-class agenda {
+class Agenda {
     constructor() {
         this.evento = [];
     }
